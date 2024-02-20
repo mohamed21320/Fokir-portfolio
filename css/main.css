@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+#home{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8) ,rgba(0, 0, 0, 0.8)), url(../images/hero\ img.jpg);
+    height: 100vh;
+    background-size: cover;
+   
+   
+}
+ .container{
+    margin: auto;
+    width: 85%;
+padding: 10px;
+   
+}
+
+#home .navbar{
+    background-color:  rgba(0, 0, 0, 0.8);
+}
+#home .navbar h2 a{
+    color: #FF305B;
+    float: left;
+    padding-right: 60px;
+
+}
+#home .navbar ul  {
+float: right;
+list-style: none;
+
+}
+#home .navbar ul li a:hover{
+    color:#FF305B ;
+}
+#home .navbar  li{
+    display: inline-block;
+    padding: 10px;
+}
+#home .navbar span a{
+    color: #FF305B;  
+
+}
+#home .navbar  li a{
+color: #fff;
+transition:.5s color ;
+}
+#home .home-info{
+    color: #fff;
+    text-align: center;
+    padding: 17.3%;
+    /* background-color:  ; */
+  
+}
+#home .home-info h1{
+    color: #FF305B;
+    font-size: 60px;
+}
+#home .home-info span{
+    font-weight:bolder;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#home .home-info p{
+    font-size: 25px;
+    font-weight: 100px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#home .home-info p::after{
+    content: " |";
+    animation-name: typing;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+
+}
+@keyframes typing {
+    0%{content: "D|"}
+    4%{content: "De|"}
+    8%{content:"Des|"}
+    12%{content:"Desi|"}
+    16%{content:"Desin|"}
+    20%{content:"Desine|"}
+    24%{content:"Desiner|"}
+    26%{content:"Desine|"}
+    30%{content:"Desin|"}
+    34%{content:"Desi|"}
+    38%{content:"Des|"}
+    42%{content:"De|"}
+    46%{content: "D|"}
+    49%{content: "|"}
+    50%{content: "D|"}
+    54%{content: "De|"}
+    58%{content:"Dev|"}
+    60%{content:"Deve|"}
+    63%{content:"Devel|"}
+    68%{content:"Develo|"}
+    71%{content:"Develop|"}
+    74%{content:"Develope|"}
+    78%{content:"Developer|"}
+    82%{content:"Develope|"}
+    86%{content:"Develop|"}
+    90%{content:"Develo|"}
+    93%{content:"Devel|"}
+    96%{content:"Deve|"}
+    98%{content:"Dev|"}
+    99%{content: "De|"}
+    100%{content: "D|"}
+
+}
+#About{
+margin: 50px;
+}
+#About .my-img .images .layer{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+}
+#About .my-img .images a{
+    color: #fff;
+    transition: all .5s;
+
+}
+#About .my-img .images a :hover{
+    color: #FF3C60;
+}
+#About .my-img .images li{
+    display: inline-block;
+    padding: 0 10px;
+}
+#About .my-img .images ul{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50% ,-50%);    
+}
+#About .my-img .images:hover .layer{
+top: 0;
+}
+#About .my-img{
+float: left;
+width: 35%;
+border: 8px solid #555555;
+border-radius: 5px;
+}
+#About .my-img .images{
+position: relative;
+top: 20px;
+left: 20px;
+    overflow: hidden;
+
+}
+#About .my-img img{
+width: 100%;
+}
+#About .text{
+    width: 50%;
+    float: right;
+}
+#About .welcome{
+float: right;
+
+}
+#About .welcome ul span{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #FF305B;
+}
+#About .welcome h2{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-block: 5px;
+}
+
+#About ul{
+    list-style: none;
+}
+#About .welcome p{
+    line-height: 25px;
+    color: #555555;
+}
+#About .knowledge1 li{
+    padding-block: 10px;
+}
+#About .knowledge1 li h3{
+display: inline-block;
+font-size: medium;
+
+}
+#About .knowledge1 li p{
+    display: inline-block;
+
+}
+#About .knowledge2 li h3{
+    display: inline-block;
+    font-size: medium;
+}
+ #About .knowledge2 li p{
+        display: inline-block;
+    
+}
+#About .knowledge1 ul {
+float: left;
+padding-right: 40px;
+}
+#About .knowledge2 ul{
+float: left;
+padding-left: 40px;
+}
+#About button{
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-block: 20px;
+    color: #fff;
+    display: inline-block;
+    font-size: large;
+    border: 1px solid transparent;
+    background-color: #FF305B;
+transition:1s background-color ;
+padding: 10px 24px;
+}
+#About button:hover{
+    background-color: #EC2403;
+}
+#Services{
+    background-color: #F1F1F1;
+    padding: 50px;
+}
+#Services h2{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    padding-block: 5px;
+}
+#Services .line1{
+    width: 70px;
+    background-color: #FF305B;
+    margin: auto;
+    height: 1px;
+    margin-bottom: 5px;
+}
+#Services .line2{
+    width: 140px;
+    background-color: #FF305B;
+    margin: auto;
+    height: 1px;
+    margin-bottom: 5px; 
+}
+#Services .line3{
+    width: 70px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+    height: 1px;
+}
+#Services .our-servcices{
+    width: 25%;
+    float: left;
+padding: 20px;
+text-align: center;
+transition: 0.5s background-color;
+}
+#Services .our-servcices:hover{
+    background-color: #fff; 
+}
+#Services .our-servcices:hover i{
+    transform: scale(1.3);
+}
+#Services .our-servcices i{
+padding: 20px;
+color: #FF3C60;
+transition: all .5s;
+}
+
+#Portfolio h2{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    padding-block: 5px;
+}
+#Portfolio .container{
+    text-align: center;
+}
+#Portfolio .container .text{
+    margin-block: 30px;
+}
+#Portfolio .line1 ,#Portfolio .line3 ,#Portfolio .line2{
+    width: 70px;
+    background-color: #FF305B;
+    margin: auto;
+    height: 1px;
+    margin-bottom: 5px;
+}
+#Portfolio .line2{
+    width: 140px;
+}
+#Portfolio .text li{
+display: inline-block;
+padding:20px 10px;
+
+}
+
+#Portfolio .total .image{
+ position: relative;
+overflow: hidden;
+   
+}
+#Portfolio .total{
+    float: left;
+    width: 33.333%;
+padding: 10px;
+}
+#Portfolio .total .image:hover .layer{
+  opacity: 1;
+}
+#Portfolio .total .image img{
+    width: 100%;
+}
+#Portfolio .total .layer{
+     background-color: rgba(0, 0, 0, 0.5);
+     position: absolute; 
+     top: 0;
+     left:0;
+     width: 100%;
+     height: 100%;
+     opacity: 0;
+transition: opacity .5s;
+}
+#Portfolio .total .layer i{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+#Portfolio .total i{
+    color: #FF305B;
+}
+
+#count{
+   background-color: #F1F1F1;  
+   padding-block: 70px;
+
+}
+#count .container{
+    padding-block: 60px;
+    margin: auto;
+    width: 85%;
+}
+.action{
+  
+    float: left;
+    text-align: center;
+    margin: auto;
+padding-inline: 60px;
+
+}
+.action i{
+    color: #FF305B;
+}
+.action h3{
+    color: #555555;
+}
+.action p{
+    color: #333333;
+    padding-block: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#Testimonial{
+    background-color: #fff;
+    padding-top: 50px;
+}
+#Testimonial .container{
+    margin: auto;
+    width: 65%;
+    margin-bottom: 80px;
+}
+#Testimonial .contain{
+    background-color:#F1F1F1;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    height: 250px;
+  overflow: hidden;
+
+}
+#Testimonial .contain .color{
+    border: 500px solid red;
+    border-top: #EC2403;
+    border-left: transparent;
+    position: absolute;
+    bottom:95%;
+    left: -19.5%;
+    transform: rotate(240deg );
+}
+#Testimonial h2{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    padding-block: 5px;
+}
+#Testimonial .line1 ,#Testimonial .line3 ,#Testimonial .line2{
+    width: 70px;
+    background-color: #FF305B;
+    margin: auto;
+    height: 1px;
+    margin-bottom: 5px;
+}
+#Testimonial .line2{
+    width: 140px;
+}
+#Testimonial .img-in{
+    width: 120px;
+    border-radius: 50%;
+    float: left;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    z-index: 2;
+}
+#Testimonial .img-in img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+#Testimonial .text-in{
+float: right;
+width: 80%;
+}
+#Testimonial .text-in p ,#Testimonial .text-in span{
+color:#777777 ;
+}
+#Testimonial .text-in h3{
+    color: #333333;
+}
+#Blog{
+    background-color: #F1F1F1;
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+}
+#Blog h2{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    padding-block: 5px;
+}
+#Blog .text{
+    text-align: center;
+}
+#Blog .line1 ,#Blog .line3 ,#Blog .line2{
+    width: 70px;
+    background-color: #FF305B;
+    margin: auto;
+    height: 1px;
+    margin-bottom: 5px;
+}
+#Blog .line2{
+    width: 140px;
+}
+#Blog .line3{
+    margin-bottom: 20px;
+}
+#Blog .social{
+    background-color: #FFFFFF;
+}
+#Blog .social img{
+    width: 100%;
+}
+#Blog .social iframe{
+    width: 100%;
+    height: 188px;
+}
+#Blog .social p{
+    padding: 20px 15px;
+    line-height: 25px;
+    font-size: 18px;
+    color:#777777 ;
+}
+#Blog .layer{
+    float: left;
+    padding-inline: 20px;
+    width: 33.3333%;
+}
+#Blog h3{
+    padding-inline:  15px;
+    font-size: 23px;
+    transition: color .5s;
+}
+#Blog h3:hover{
+    color: #FF305B;
+}
+#Contact .line1 ,#Contact .line3 ,#Contact .line2{
+    width: 70px;
+    background-color: #FF305B;
+    margin: auto;
+    height: 1px;
+    margin-bottom: 5px;
+}
+#Contact .container{
+    width: 60%;
+    margin-block: 40px;
+
+}
+#Contact .line2{
+    width: 140px;
+}
+#Contact .line3{
+    margin-bottom: 20px;
+}
+
+#Contact h2{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    padding-block: 10px;
+    margin-top: 30px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #CCCCCC;
+}
+#Contact .my-knowledge{
+ padding-inline: 20px; 
+float: left;
+ padding-block:10px; 
+ width: 50%; 
+ margin-block: 30px;
+}
+#Contact textarea{
+    width: 100%;
+    height: 100px;
+    margin-block: 35px;
+    border-radius: 5px;
+    border: 2px solid #CCCCCC;
+}
+#Contact button{
+    padding: 5px 15px;
+    background-color: #FF305B;
+border: 5px solid transparent;
+border-radius: 5px;
+color: #fff;
+font-size: 15px;
+transition:background-color .5s;
+}
+#Contact button:hover{
+    background-color: #EC2403;
+}
+.tail{
+    background-color: #333333;
+    text-align: center;
+    color: white;
+    padding-block: 50px;
+}
+.tail span{
+    color: #FF305B;
+}
+.tail li{
+    display: inline-block;
+    padding-inline: 10px;
+}
+.tail a{
+    color: white;
+}
+.tail a:hover{
+    color: #FF305B;
+}
+.tail ul{
+    padding-block: 10px;
+}
+
+
+
